@@ -1,15 +1,68 @@
 body {
-    background-color: #f0f0f0;
+    background-image: url(https://as1.ftcdn.net/jpg/01/17/65/26/1000_F_117652620_70GAm30iv97jcg9KjrMXQuRosh4x1OCz.jpg);
     font-family: 'Times New Roman', Times, serif;
-    color: #333;
+    color: #ffffff;
     text-align: center;
 }
 
 .container {
-    background-color: white;
-    border: 2px solid #ccc;
+    background-color: rgb(133, 92, 143);
+    border: 2px solid #5c084e;
     width: 80%;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;    
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+h1 {
+    color: #450053;
+    font-size: 3rem;
+}
+
+h2 {
+    color: rgb(97, 5, 100);
+    font-size: 2rem;
+}
+
+h3 {
+    color: rgb(211, 127, 211);
+    font-size: 1.7rem;
+    text-align: left;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+ul {
+    text-align: left;
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(97, 24, 104);
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: rgba(37, 14, 34, 0.12) 0px 2px 4px 0px, rgba(26, 17, 26, 0.32) 0px 2px 16px 0px;
+}
+
+a:hover {
+    background-color: #40014e;
 }
